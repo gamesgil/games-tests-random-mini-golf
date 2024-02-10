@@ -1,0 +1,22 @@
+{
+  "name": "random-mini-golf",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamesgil/games-tests-random-mini-golf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamesgil/games-tests-random-mini-golf/issues"
+  },
+  "homepage": "https://github.com/gamesgil/games-tests-random-mini-golf#readme",
+  "dependencies": {
+    "phaser": "^3.70.0"
+  }
+}
