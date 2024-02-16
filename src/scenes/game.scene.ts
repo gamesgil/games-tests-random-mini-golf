@@ -1,8 +1,18 @@
+import { inject } from 'inversify';
 import { World } from 'matter';
 import Phaser, {Scene, Physics} from 'phaser';
+import { GameLogicService } from '../services/game-logic.service';
+import { Types } from '../types';
+
 
 export class GameScene extends Scene
 {
+    constructor(private service: GameLogicService) {
+        super();
+
+        console.log('xxxxx' + this.service.test)
+    }
+    
     create ()
     {
         // background
